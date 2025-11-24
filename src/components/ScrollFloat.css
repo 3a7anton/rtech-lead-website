@@ -1,0 +1,34 @@
+.scroll-float {
+  overflow: hidden;
+  text-align: center;
+}
+
+.scroll-float-text {
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Default heading styles */
+h1.scroll-float .scroll-float-text,
+h2.scroll-float .scroll-float-text {
+  font-size: clamp(1.8rem, 5vw, 4rem);
+  font-weight: 900;
+}
+
+h3.scroll-float .scroll-float-text {
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-weight: 700;
+}
+
+/* Paragraph and smaller text styles */
+p.scroll-float .scroll-float-text,
+span.scroll-float .scroll-float-text,
+div.scroll-float .scroll-float-text {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: inherit;
+}
+
+.char {
+  display: inline-block;
+}
