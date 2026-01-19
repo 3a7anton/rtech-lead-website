@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
           <img src="/rtech.png" alt="RTech Lead" />
-          <span>RTech Lead</span>
+          {/* <span>RTech Lead</span> */}
         </Link>
 
         <button 
@@ -56,7 +56,7 @@ export default function Navbar() {
           </li>
           <li>
             <a 
-              href="https://wa.me/8801771778880" 
+              href="https://wa.me/8801634352723" 
               target="_blank" 
               rel="noopener noreferrer"
               className="navbar-cta"

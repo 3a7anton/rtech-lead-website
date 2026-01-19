@@ -130,7 +130,7 @@ export default function About() {
           </ScrollFloat>
           <p>Let's work together to bring your vision to life</p>
           <a 
-            href="https://wa.me/8801771778880" 
+            href="https://wa.me/8801634352723" 
             target="_blank" 
             rel="noopener noreferrer"
             className="about-cta-button"

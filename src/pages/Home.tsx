@@ -128,7 +128,7 @@ export default function Home() {
         </div>
         <div className="hero-overlay"></div>
         <div className="hero-content">
-          <img src="/rtech.png" alt="RTech Lead" className="hero-logo" />
+          {/* <img src="/rtech.png" alt="RTech Lead" className="hero-logo" /> */}
           <h1>Empowering Businesses Through Innovation</h1>
           <p>Leading IT solutions provider delivering excellence since 2024</p>
           <Link to="/services" className="hero-cta">
@@ -198,7 +198,7 @@ export default function Home() {
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
                 <a 
-                  href="https://wa.me/8801771778880" 
+                  href="https://wa.me/8801634352723" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="service-link"
@@ -237,7 +237,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Achievements Section */}
+      Achievements Section
       <section className="achievements-section">
         <div className="container">
           <ScrollFloat as="h2">

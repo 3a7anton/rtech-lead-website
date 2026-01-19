@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="footer-section">
             <h4>Contact</h4>
             <div className="footer-links">
-              <a href="tel:+8801771778880">+880 1771 778880</a>
+              <a href="tel:+8801634352723">+8801634352723</a>
               <a href="mailto:info@rtechlead.com">infortechlead@gmail.com</a>
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://wa.me/8801771778880" 
+                href="https://wa.me/8801634352723" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"

@@ -149,7 +149,7 @@ export default function Services() {
                   ))}
                 </ul>
                 <a 
-                  href="https://wa.me/8801771778880" 
+                  href="https://wa.me/8801634352723" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="service-detail-button"
@@ -197,7 +197,7 @@ export default function Services() {
           </ScrollFloat>
           <p>Contact us today to discuss your project requirements</p>
           <a 
-            href="https://wa.me/8801771778880" 
+            href="https://wa.me/8801634352723" 
             target="_blank" 
             rel="noopener noreferrer"
             className="services-cta-button"
