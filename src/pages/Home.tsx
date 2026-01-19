@@ -96,27 +96,6 @@ export default function Home() {
     }
   ];
 
-  const testimonials = [
-    {
-      name: 'John Smith',
-      company: 'Tech Solutions Inc.',
-      text: 'RTech Lead delivered exceptional results. Their team is professional and highly skilled.',
-      rating: 5
-    },
-    {
-      name: 'Sarah Johnson',
-      company: 'Digital Marketing Pro',
-      text: 'Outstanding service! They transformed our digital presence completely.',
-      rating: 5
-    },
-    {
-      name: 'Michael Chen',
-      company: 'Startup Ventures',
-      text: 'Best decision we made was partnering with RTech Lead. Highly recommended!',
-      rating: 5
-    }
-  ];
-
   return (
     <div className="home">
       {/* Hero Section */}
@@ -211,33 +190,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Goals Section */}
-      <section className="goals-section">
-        <div className="container">
-          <ScrollFloat>
-            Our Goals
-          </ScrollFloat>
-          <div className="goals-grid">
-            <div className="goal-card">
-              <div className="goal-icon">🚀</div>
-              <h3>Innovation First</h3>
-              <p>We strive to deliver excellence in every project by embracing cutting-edge technologies and innovative approaches.</p>
-            </div>
-            <div className="goal-card">
-              <div className="goal-icon">🎯</div>
-              <h3>Client Success</h3>
-              <p>Building lasting relationships through trust, quality, and exceptional service. Your success is our mission.</p>
-            </div>
-            <div className="goal-card">
-              <div className="goal-icon">📈</div>
-              <h3>Continuous Growth</h3>
-              <p>We continuously evolve our services and stay ahead of technology trends to better serve our clients.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      Achievements Section
+     
       <section className="achievements-section">
         <div className="container">
           <ScrollFloat as="h2">
@@ -263,30 +216,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="testimonials-section">
-        <div className="container">
-          <ScrollFloat as="h2">
-            What Our Clients Say
-          </ScrollFloat>
-          <div className="testimonials-grid">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="testimonial-card">
-                <div className="testimonial-stars">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <span key={i}>⭐</span>
-                  ))}
-                </div>
-                <p className="testimonial-text">"{testimonial.text}"</p>
-                <div className="testimonial-author">
-                  <strong>{testimonial.name}</strong>
-                  <span>{testimonial.company}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

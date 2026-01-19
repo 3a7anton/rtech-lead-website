@@ -4,17 +4,6 @@ import './Services.css';
 export default function Services() {
   const services = [
     {
-      title: 'Software Development',
-      description: 'Custom software development solutions tailored to your business requirements and industry standards.',
-      icon: '💻',
-      features: [
-        'Custom Application Development',
-        'Enterprise Software Solutions',
-        'API Development & Integration',
-        'Software Maintenance & Support'
-      ]
-    },
-    {
       title: 'Website Development',
       description: 'Custom website development with responsive design and modern technologies tailored to your needs.',
       icon: '🌐',
@@ -26,69 +15,58 @@ export default function Services() {
       ]
     },
     {
-      title: 'Branding & Printing',
-      description: 'Professional branding solutions and high-quality printing services to establish your brand identity.',
+      title: 'Software Development',
+      description: 'Custom software development solutions tailored to your business requirements and industry standards.',
+      icon: '💻',
+      features: [
+        'Custom Application Development',
+        'Enterprise Software Solutions',
+        'API Development & Integration',
+        'Software Maintenance & Support'
+      ]
+    },
+    {
+      title: 'Mobile App Development',
+      description: 'Native and cross-platform mobile applications designed for optimal performance and user experience.',
+      icon: '📱',
+      features: [
+        'iOS & Android Development',
+        'Cross-Platform Solutions',
+        'App UI/UX Design',
+        'App Maintenance & Updates'
+      ]
+    },
+    {
+      title: 'Digital Marketing',
+      description: 'Comprehensive digital marketing strategies to boost your online presence and drive business growth.',
+      icon: '📈',
+      features: [
+        'SEO & SEM',
+        'Social Media Marketing',
+        'Content Marketing',
+        'Email Campaigns'
+      ]
+    },
+    {
+      title: 'Graphic & Animation',
+      description: 'Creative graphic design and animation services to bring your brand vision to life with stunning visuals.',
       icon: '🎨',
       features: [
-        'Logo Design',
-        'Brand Identity Development',
-        'Marketing Materials',
-        'Print Design Services'
-      ]
-    },
-    {
-      title: 'Motion Graphics',
-      description: 'Engaging motion graphics for marketing, presentations, and digital media with voice over and models.',
-      icon: '🎬',
-      features: [
-        'Animated Logos',
-        'Explainer Videos',
-        'Social Media Content',
-        'Presentation Graphics'
-      ]
-    },
-    {
-      title: 'Animation Video',
-      description: 'Creative animation videos for marketing, education, and entertainment purposes that captivate audiences.',
-      icon: '🎞️',
-      features: [
+        'Logo & Brand Design',
         '2D/3D Animation',
-        'Character Animation',
-        'Educational Videos',
-        'Marketing Animations'
+        'Motion Graphics',
+        'Video Animation'
       ]
     },
     {
-      title: 'OVC Production',
-      description: 'Complete video production including models, voice over, scriptwriting, shooting, photography, and editing.',
-      icon: '📹',
+      title: 'Influencer Marketing',
+      description: 'Strategic influencer partnerships to amplify your brand message and reach targeted audiences effectively.',
+      icon: '🌟',
       features: [
-        'Professional Scriptwriting',
-        'Voice Over Services',
-        'Model Coordination',
-        'Complete Post-Production'
-      ]
-    },
-    {
-      title: 'AV Company Portfolio',
-      description: 'Professional audiovisual portfolio creation to showcase your company\'s capabilities and achievements.',
-      icon: '🎥',
-      features: [
-        'Portfolio Design',
-        'Showreel Creation',
-        'Case Study Videos',
-        'Company Presentations'
-      ]
-    },
-    {
-      title: 'Photography',
-      description: 'High-quality product photography with optional model services to showcase your products effectively.',
-      icon: '📸',
-      features: [
-        'Product Photography',
-        'Corporate Photography',
-        'Event Photography',
-        'Professional Editing'
+        'Influencer Selection',
+        'Campaign Management',
+        'Content Collaboration',
+        'Performance Analytics'
       ]
     },
     {
@@ -100,6 +78,17 @@ export default function Services() {
         'Commercial Videos',
         'Documentary Production',
         'Promotional Content'
+      ]
+    },
+    {
+      title: 'Event Activation',
+      description: 'Engaging event activation services to create memorable brand experiences and connect with your audience.',
+      icon: '🎪',
+      features: [
+        'Event Planning & Execution',
+        'Brand Activation Campaigns',
+        'On-Ground Marketing',
+        'Experiential Marketing'
       ]
     }
   ];
